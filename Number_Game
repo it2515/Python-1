@@ -6,8 +6,8 @@ os.system('color 4f')
 while True:
 	c = int(input('Pick a number you want to guess to.\n'))
 	j= random.randint(0, c)
-	print('Pick a number from 0-')
-	print(c)
+	print('Pick a number from 0-'+str(c))
+	
 	t =' '
 	while j != t:
 		t= int(input())
